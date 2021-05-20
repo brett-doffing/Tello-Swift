@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC6255F32656C0FD00B13CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6255F22656C0FD00B13CE7 /* AppDelegate.swift */; };
+		BC6255F52656C0FD00B13CE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6255F42656C0FD00B13CE7 /* SceneDelegate.swift */; };
+		BC6255F72656C0FD00B13CE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6255F62656C0FD00B13CE7 /* ViewController.swift */; };
+		BC6255FA2656C0FD00B13CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6255F82656C0FD00B13CE7 /* Main.storyboard */; };
+		BC6255FC2656C0FF00B13CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6255FB2656C0FF00B13CE7 /* Assets.xcassets */; };
+		BC6255FF2656C0FF00B13CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6255FD2656C0FF00B13CE7 /* LaunchScreen.storyboard */; };
+		BC62560A2656C10000B13CE7 /* TelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6256092656C10000B13CE7 /* TelloTests.swift */; };
+		BC6256152656C10000B13CE7 /* TelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6256142656C10000B13CE7 /* TelloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC6256062656C10000B13CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC6255E72656C0FD00B13CE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6255EE2656C0FD00B13CE7;
+			remoteInfo = Tello;
+		};
+		BC6256112656C10000B13CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC6255E72656C0FD00B13CE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6255EE2656C0FD00B13CE7;
+			remoteInfo = Tello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC6255EF2656C0FD00B13CE7 /* Tello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6255F22656C0FD00B13CE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC6255F42656C0FD00B13CE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC6255F62656C0FD00B13CE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC6255F92656C0FD00B13CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC6255FB2656C0FF00B13CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC6255FE2656C0FF00B13CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC6256002656C0FF00B13CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6256052656C10000B13CE7 /* TelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6256092656C10000B13CE7 /* TelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelloTests.swift; sourceTree = "<group>"; };
+		BC62560B2656C10000B13CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6256102656C10000B13CE7 /* TelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6256142656C10000B13CE7 /* TelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelloUITests.swift; sourceTree = "<group>"; };
+		BC6256162656C10000B13CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC6255EC2656C0FD00B13CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6256022656C10000B13CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62560D2656C10000B13CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC6255E62656C0FD00B13CE7 = {
+			isa = PBXGroup;
+			children = (
+				BC6255F12656C0FD00B13CE7 /* Tello */,
+				BC6256082656C10000B13CE7 /* TelloTests */,
+				BC6256132656C10000B13CE7 /* TelloUITests */,
+				BC6255F02656C0FD00B13CE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC6255F02656C0FD00B13CE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC6255EF2656C0FD00B13CE7 /* Tello.app */,
+				BC6256052656C10000B13CE7 /* TelloTests.xctest */,
+				BC6256102656C10000B13CE7 /* TelloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC6255F12656C0FD00B13CE7 /* Tello */ = {
+			isa = PBXGroup;
+			children = (
+				BC6255F22656C0FD00B13CE7 /* AppDelegate.swift */,
+				BC6255F42656C0FD00B13CE7 /* SceneDelegate.swift */,
+				BC6255F62656C0FD00B13CE7 /* ViewController.swift */,
+				BC6255F82656C0FD00B13CE7 /* Main.storyboard */,
+				BC6255FB2656C0FF00B13CE7 /* Assets.xcassets */,
+				BC6255FD2656C0FF00B13CE7 /* LaunchScreen.storyboard */,
+				BC6256002656C0FF00B13CE7 /* Info.plist */,
+			);
+			path = Tello;
+			sourceTree = "<group>";
+		};
+		BC6256082656C10000B13CE7 /* TelloTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC6256092656C10000B13CE7 /* TelloTests.swift */,
+				BC62560B2656C10000B13CE7 /* Info.plist */,
+			);
+			path = TelloTests;
+			sourceTree = "<group>";
+		};
+		BC6256132656C10000B13CE7 /* TelloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC6256142656C10000B13CE7 /* TelloUITests.swift */,
+				BC6256162656C10000B13CE7 /* Info.plist */,
+			);
+			path = TelloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC6255EE2656C0FD00B13CE7 /* Tello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6256192656C10000B13CE7 /* Build configuration list for PBXNativeTarget "Tello" */;
+			buildPhases = (
+				BC6255EB2656C0FD00B13CE7 /* Sources */,
+				BC6255EC2656C0FD00B13CE7 /* Frameworks */,
+				BC6255ED2656C0FD00B13CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tello;
+			productName = Tello;
+			productReference = BC6255EF2656C0FD00B13CE7 /* Tello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC6256042656C10000B13CE7 /* TelloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC62561C2656C10000B13CE7 /* Build configuration list for PBXNativeTarget "TelloTests" */;
+			buildPhases = (
+				BC6256012656C10000B13CE7 /* Sources */,
+				BC6256022656C10000B13CE7 /* Frameworks */,
+				BC6256032656C10000B13CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC6256072656C10000B13CE7 /* PBXTargetDependency */,
+			);
+			name = TelloTests;
+			productName = TelloTests;
+			productReference = BC6256052656C10000B13CE7 /* TelloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC62560F2656C10000B13CE7 /* TelloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC62561F2656C10000B13CE7 /* Build configuration list for PBXNativeTarget "TelloUITests" */;
+			buildPhases = (
+				BC62560C2656C10000B13CE7 /* Sources */,
+				BC62560D2656C10000B13CE7 /* Frameworks */,
+				BC62560E2656C10000B13CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC6256122656C10000B13CE7 /* PBXTargetDependency */,
+			);
+			name = TelloUITests;
+			productName = TelloUITests;
+			productReference = BC6256102656C10000B13CE7 /* TelloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC6255E72656C0FD00B13CE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					BC6255EE2656C0FD00B13CE7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					BC6256042656C10000B13CE7 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = BC6255EE2656C0FD00B13CE7;
+					};
+					BC62560F2656C10000B13CE7 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = BC6255EE2656C0FD00B13CE7;
+					};
+				};
+			};
+			buildConfigurationList = BC6255EA2656C0FD00B13CE7 /* Build configuration list for PBXProject "Tello" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC6255E62656C0FD00B13CE7;
+			productRefGroup = BC6255F02656C0FD00B13CE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC6255EE2656C0FD00B13CE7 /* Tello */,
+				BC6256042656C10000B13CE7 /* TelloTests */,
+				BC62560F2656C10000B13CE7 /* TelloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC6255ED2656C0FD00B13CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6255FF2656C0FF00B13CE7 /* LaunchScreen.storyboard in Resources */,
+				BC6255FC2656C0FF00B13CE7 /* Assets.xcassets in Resources */,
+				BC6255FA2656C0FD00B13CE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6256032656C10000B13CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62560E2656C10000B13CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC6255EB2656C0FD00B13CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6255F72656C0FD00B13CE7 /* ViewController.swift in Sources */,
+				BC6255F32656C0FD00B13CE7 /* AppDelegate.swift in Sources */,
+				BC6255F52656C0FD00B13CE7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6256012656C10000B13CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC62560A2656C10000B13CE7 /* TelloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62560C2656C10000B13CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6256152656C10000B13CE7 /* TelloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC6256072656C10000B13CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC6255EE2656C0FD00B13CE7 /* Tello */;
+			targetProxy = BC6256062656C10000B13CE7 /* PBXContainerItemProxy */;
+		};
+		BC6256122656C10000B13CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC6255EE2656C0FD00B13CE7 /* Tello */;
+			targetProxy = BC6256112656C10000B13CE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC6255F82656C0FD00B13CE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6255F92656C0FD00B13CE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC6255FD2656C0FF00B13CE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6255FE2656C0FF00B13CE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC6256172656C10000B13CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC6256182656C10000B13CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC62561A2656C10000B13CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ASJ9CE64;
+				INFOPLIST_FILE = Tello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BCD.Tello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC62561B2656C10000B13CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ASJ9CE64;
+				INFOPLIST_FILE = Tello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BCD.Tello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC62561D2656C10000B13CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ASJ9CE64;
+				INFOPLIST_FILE = TelloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BCD.TelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tello.app/Tello";
+			};
+			name = Debug;
+		};
+		BC62561E2656C10000B13CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ASJ9CE64;
+				INFOPLIST_FILE = TelloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BCD.TelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tello.app/Tello";
+			};
+			name = Release;
+		};
+		BC6256202656C10000B13CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ASJ9CE64;
+				INFOPLIST_FILE = TelloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BCD.TelloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tello;
+			};
+			name = Debug;
+		};
+		BC6256212656C10000B13CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59ASJ9CE64;
+				INFOPLIST_FILE = TelloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BCD.TelloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tello;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC6255EA2656C0FD00B13CE7 /* Build configuration list for PBXProject "Tello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6256172656C10000B13CE7 /* Debug */,
+				BC6256182656C10000B13CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6256192656C10000B13CE7 /* Build configuration list for PBXNativeTarget "Tello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC62561A2656C10000B13CE7 /* Debug */,
+				BC62561B2656C10000B13CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC62561C2656C10000B13CE7 /* Build configuration list for PBXNativeTarget "TelloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC62561D2656C10000B13CE7 /* Debug */,
+				BC62561E2656C10000B13CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC62561F2656C10000B13CE7 /* Build configuration list for PBXNativeTarget "TelloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6256202656C10000B13CE7 /* Debug */,
+				BC6256212656C10000B13CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC6255E72656C0FD00B13CE7 /* Project object */;
+}
