@@ -1,0 +1,6 @@
+framework module Pods_Tello {
+  umbrella header "Pods-Tello-umbrella.h"
+
+  export *
+  module * { export * }
+}

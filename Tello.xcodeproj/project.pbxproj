@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5337E2698E1C8206688390EB /* Pods_TelloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797D98B5AE0AED1380A0C77D /* Pods_TelloTests.framework */; };
+		62024C37E750304BA35975C7 /* Pods_Tello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E3EB09A59AC0204C9F81A6 /* Pods_Tello.framework */; };
+		7CE9766E766D77CF21676BE3 /* Pods_Tello_TelloUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0217920B9CECE689BEB099 /* Pods_Tello_TelloUITests.framework */; };
 		BC6255F32656C0FD00B13CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6255F22656C0FD00B13CE7 /* AppDelegate.swift */; };
 		BC6255F52656C0FD00B13CE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6255F42656C0FD00B13CE7 /* SceneDelegate.swift */; };
 		BC6255F72656C0FD00B13CE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6255F62656C0FD00B13CE7 /* ViewController.swift */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A0217920B9CECE689BEB099 /* Pods_Tello_TelloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tello_TelloUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E3EB09A59AC0204C9F81A6 /* Pods_Tello.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCB01CF9284FFB19CEA9ADC /* Pods-Tello-TelloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tello-TelloUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		797D98B5AE0AED1380A0C77D /* Pods_TelloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01F472095100BE29EE28EE4 /* Pods-TelloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelloTests.debug.xcconfig"; path = "Target Support Files/Pods-TelloTests/Pods-TelloTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8AD1EDC6D360585A217AC12 /* Pods-TelloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelloTests.release.xcconfig"; path = "Target Support Files/Pods-TelloTests/Pods-TelloTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEA21D11F7D8E43471F605AC /* Pods-Tello.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tello.debug.xcconfig"; path = "Target Support Files/Pods-Tello/Pods-Tello.debug.xcconfig"; sourceTree = "<group>"; };
 		BC6255EF2656C0FD00B13CE7 /* Tello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6255F22656C0FD00B13CE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC6255F42656C0FD00B13CE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		BC6256102656C10000B13CE7 /* TelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6256142656C10000B13CE7 /* TelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelloUITests.swift; sourceTree = "<group>"; };
 		BC6256162656C10000B13CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4470D5DACC9F5896D80050E /* Pods-Tello-TelloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tello-TelloUITests.release.xcconfig"; path = "Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3C8CB409A544DA23199F4A4 /* Pods-Tello.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tello.release.xcconfig"; path = "Target Support Files/Pods-Tello/Pods-Tello.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62024C37E750304BA35975C7 /* Pods_Tello.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5337E2698E1C8206688390EB /* Pods_TelloTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE9766E766D77CF21676BE3 /* Pods_Tello_TelloUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				BC6256082656C10000B13CE7 /* TelloTests */,
 				BC6256132656C10000B13CE7 /* TelloUITests */,
 				BC6255F02656C0FD00B13CE7 /* Products */,
+				E26F8135108157C7883D37A9 /* Pods */,
+				C04C31A7BB752C46BA0E5EEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = TelloUITests;
 			sourceTree = "<group>";
 		};
+		C04C31A7BB752C46BA0E5EEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69E3EB09A59AC0204C9F81A6 /* Pods_Tello.framework */,
+				1A0217920B9CECE689BEB099 /* Pods_Tello_TelloUITests.framework */,
+				797D98B5AE0AED1380A0C77D /* Pods_TelloTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E26F8135108157C7883D37A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEA21D11F7D8E43471F605AC /* Pods-Tello.debug.xcconfig */,
+				E3C8CB409A544DA23199F4A4 /* Pods-Tello.release.xcconfig */,
+				6DCB01CF9284FFB19CEA9ADC /* Pods-Tello-TelloUITests.debug.xcconfig */,
+				D4470D5DACC9F5896D80050E /* Pods-Tello-TelloUITests.release.xcconfig */,
+				A01F472095100BE29EE28EE4 /* Pods-TelloTests.debug.xcconfig */,
+				A8AD1EDC6D360585A217AC12 /* Pods-TelloTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC6256192656C10000B13CE7 /* Build configuration list for PBXNativeTarget "Tello" */;
 			buildPhases = (
+				6883C494A2CBC061C4967EEB /* [CP] Check Pods Manifest.lock */,
 				BC6255EB2656C0FD00B13CE7 /* Sources */,
 				BC6255EC2656C0FD00B13CE7 /* Frameworks */,
 				BC6255ED2656C0FD00B13CE7 /* Resources */,
+				732A9F972BA48FADBDC5A572 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC62561C2656C10000B13CE7 /* Build configuration list for PBXNativeTarget "TelloTests" */;
 			buildPhases = (
+				2226B49CB4CBDDC8E1AFE23A /* [CP] Check Pods Manifest.lock */,
 				BC6256012656C10000B13CE7 /* Sources */,
 				BC6256022656C10000B13CE7 /* Frameworks */,
 				BC6256032656C10000B13CE7 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC62561F2656C10000B13CE7 /* Build configuration list for PBXNativeTarget "TelloUITests" */;
 			buildPhases = (
+				7325DAECBDA8934FED1BFE12 /* [CP] Check Pods Manifest.lock */,
 				BC62560C2656C10000B13CE7 /* Sources */,
 				BC62560D2656C10000B13CE7 /* Frameworks */,
 				BC62560E2656C10000B13CE7 /* Resources */,
+				6351045D32A2E3915C98CCF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2226B49CB4CBDDC8E1AFE23A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TelloTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6351045D32A2E3915C98CCF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6883C494A2CBC061C4967EEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tello-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7325DAECBDA8934FED1BFE12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tello-TelloUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732A9F972BA48FADBDC5A572 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tello/Pods-Tello-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tello/Pods-Tello-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tello/Pods-Tello-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC6255EB2656C0FD00B13CE7 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		BC62561A2656C10000B13CE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA21D11F7D8E43471F605AC /* Pods-Tello.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		BC62561B2656C10000B13CE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C8CB409A544DA23199F4A4 /* Pods-Tello.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		BC62561D2656C10000B13CE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01F472095100BE29EE28EE4 /* Pods-TelloTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		BC62561E2656C10000B13CE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8AD1EDC6D360585A217AC12 /* Pods-TelloTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		BC6256202656C10000B13CE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCB01CF9284FFB19CEA9ADC /* Pods-Tello-TelloUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		BC6256212656C10000B13CE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4470D5DACC9F5896D80050E /* Pods-Tello-TelloUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

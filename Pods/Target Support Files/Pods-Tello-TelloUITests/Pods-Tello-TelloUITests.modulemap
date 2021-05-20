@@ -1,0 +1,6 @@
+framework module Pods_Tello_TelloUITests {
+  umbrella header "Pods-Tello-TelloUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
