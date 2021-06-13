@@ -7,27 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EC1806437F66CC12F06DD7ACD1FBA4A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5359E8FB322457653E676483AB72D7B1 /* Security.framework */; };
-		142A40107E14A7EDEBDA37058E4FDD1A /* Pods-Tello-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF47430070A13E21DF0F4641B355A4F /* Pods-Tello-dummy.m */; };
-		14703875367641811BD5FE75ACD67C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B655093DDCC0176DEAC903ABA8E76527 /* Foundation.framework */; };
-		15C5916146B5BE530D0BD4839A8CB7B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B655093DDCC0176DEAC903ABA8E76527 /* Foundation.framework */; };
-		1C7C608091334B29AA1F96D400B24326 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */; };
-		20386C4BEBA1CEA6E5EDB1669B7ADD76 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC814063E47992E7A90FA41688C2A454 /* CFNetwork.framework */; };
-		2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10FF98D32189D045D89683CE1D2CE9FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		26933DE790AD32659A054D491A443F2F /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E02ECCD65A8BB2208F3B2BA41A40F /* yudpsocket.c */; };
+		310F4A419C7777D411976A91A8977522 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E143F9F9E11CD6BF689A5CC25376C2E /* Result.swift */; };
 		3DB72F27A3FA1EC340996EF39590F1F9 /* Pods-TelloTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2065E5988304AE15539B72F1EC4AC3 /* Pods-TelloTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CCEA0454E414353B859CE9AD50670E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B655093DDCC0176DEAC903ABA8E76527 /* Foundation.framework */; };
-		6FFB23DD5E8DD756D3A4AB53EEE4BA8E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */; };
+		44F9E02439C22878659E58F253CFC748 /* Pods-Tello-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68647FD0185B26E8BAD04D544F9F8537 /* Pods-Tello-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590F90702C1E8FFBDE2750F2EB559F6B /* SwiftSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE744DA4CD44470453A32BAD6BCFEE2 /* SwiftSocket-dummy.m */; };
+		5BB907C502A7DEFA00C3F7ECA55CAE2B /* SwiftSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C98A82A34056375FA04A23EE99A0DE3A /* SwiftSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71719E654327DF3FE268F5B592C6221C /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = D34E558791B9D0DA7BADEDE6FCC773AD /* ytcpsocket.c */; };
+		86CABF16414D74E81AF00E487F59B6E7 /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E59343DC1B431D5A15BA9F074BDDC /* UDPClient.swift */; };
 		920CBD805A86C1272D71C1B94188334F /* Pods-TelloTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A402C19FFE3452707E992CE0243F00 /* Pods-TelloTests-dummy.m */; };
-		ABB8D6CBE8A172752B861CDEF6C51545 /* Pods-Tello-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68647FD0185B26E8BAD04D544F9F8537 /* Pods-Tello-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE47535DDCADD34BA0B3304471E18904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B655093DDCC0176DEAC903ABA8E76527 /* Foundation.framework */; };
-		BDB68F6F017B8E00A457CDA06B411AC8 /* Pods-Tello-TelloUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E01C7ED940F583341FFB75D3FC73B244 /* Pods-Tello-TelloUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB063EBB21B318C5D55F048214A2DF0C /* Pods-Tello-TelloUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8409C9D1E966E69484601FC5EA4C603 /* Pods-Tello-TelloUITests-dummy.m */; };
-		FBB70AF3F803450935EE98C837D98688 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */; };
+		9CE281E41E813E446EA9DE553E33D948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9F9C4D89B9E4648A85BA2AD7E2C4911F /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B68F60448A68271A55A5BE51FB9546 /* TCPClient.swift */; };
+		AE47535DDCADD34BA0B3304471E18904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B0DD371044BAF94CD193ACCA02EBF01C /* Pods-Tello-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF47430070A13E21DF0F4641B355A4F /* Pods-Tello-dummy.m */; };
+		B5BAC926E2E91F3AB55A4D23DB026475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BD169584C0CEFCEF71CB3F76C75DDB6F /* Pods-Tello-TelloUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8409C9D1E966E69484601FC5EA4C603 /* Pods-Tello-TelloUITests-dummy.m */; };
+		D303472E6599B444367CC153A4F2DFDC /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609ADF7E8B98D570BE046E4C5DBDFD65 /* Socket.swift */; };
+		EA51FDA665CD4D3651919CBD85F9DAF9 /* Pods-Tello-TelloUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E01C7ED940F583341FFB75D3FC73B244 /* Pods-Tello-TelloUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0EBBFC989F205110C4A819467464249A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2098E99F31975F5C89523CC6EB58B9CC;
+			remoteInfo = SwiftSocket;
+		};
 		2C6B1F8F821425984E94508C3A9061B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -35,85 +42,76 @@
 			remoteGlobalIDString = 6A51209551A7175D60B42CC1F8A3FAE3;
 			remoteInfo = "Pods-Tello";
 		};
-		3CF0165B5C2DD35FE4B83E54C4AE4A2C /* PBXContainerItemProxy */ = {
+		E5EF10F0E22364DD829C3CD7E6C90121 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
-			remoteInfo = CocoaAsyncSocket;
-		};
-		58B74670674880AB322CEAAF71737CBD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
-			remoteInfo = CocoaAsyncSocket;
+			remoteGlobalIDString = 2098E99F31975F5C89523CC6EB58B9CC;
+			remoteInfo = SwiftSocket;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		014A23C29A93425D1BF671176BBD1F6B /* Pods-Tello-TelloUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tello-TelloUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		09B68F60448A68271A55A5BE51FB9546 /* TCPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPClient.swift; path = Sources/TCPClient.swift; sourceTree = "<group>"; };
 		0D715607B83CBA814E876244BE6E70DF /* Pods_Tello.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tello.framework; path = "Pods-Tello.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1A8CB2426091C3948971BFFF60C9B7 /* Pods-TelloTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TelloTests.modulemap"; sourceTree = "<group>"; };
 		12650E2F095DE6CC6069ACEC62A22023 /* Pods-Tello-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tello-frameworks.sh"; sourceTree = "<group>"; };
-		12D2BC450C4A6B05397075508D93D9CE /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		326B97E23FE360A3CB8CA1C66EFC342E /* Pods-Tello-TelloUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tello-TelloUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		383B70CD1875BEC3A64BF7C7C377377A /* SwiftSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSocket.xcconfig; sourceTree = "<group>"; };
+		3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSocket.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		447E59343DC1B431D5A15BA9F074BDDC /* UDPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UDPClient.swift; path = Sources/UDPClient.swift; sourceTree = "<group>"; };
 		464E984846FABF938D4ED7E109EA1F2B /* Pods-Tello-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tello-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48AE250D0351E68FDD9B7CECF23B67A4 /* Pods_Tello_TelloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tello_TelloUITests.framework; path = "Pods-Tello-TelloUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEAE031F7409CC91A60B63D65F0170A /* Pods-Tello-TelloUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tello-TelloUITests.modulemap"; sourceTree = "<group>"; };
 		4E67F61E09E9F396956256423E3357DF /* Pods-TelloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelloTests.release.xcconfig"; sourceTree = "<group>"; };
-		5359E8FB322457653E676483AB72D7B1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		56A2B0556F70FB8435ECE7CA71C28534 /* Pods-Tello-TelloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tello-TelloUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5A47BE4D513909B11F7F6273A7476A92 /* Pods-Tello-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tello-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B0E02ECCD65A8BB2208F3B2BA41A40F /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Sources/yudpsocket.c; sourceTree = "<group>"; };
+		609ADF7E8B98D570BE046E4C5DBDFD65 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
 		66B8AA2E022AD947D002C1CB3C3BCA47 /* Pods-Tello-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tello-Info.plist"; sourceTree = "<group>"; };
 		68647FD0185B26E8BAD04D544F9F8537 /* Pods-Tello-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tello-umbrella.h"; sourceTree = "<group>"; };
 		69A402C19FFE3452707E992CE0243F00 /* Pods-TelloTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TelloTests-dummy.m"; sourceTree = "<group>"; };
-		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		6EE744DA4CD44470453A32BAD6BCFEE2 /* SwiftSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSocket-dummy.m"; sourceTree = "<group>"; };
 		70BAAEB08FA11BCDF24D4E31B4915DBE /* Pods-Tello.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tello.release.xcconfig"; sourceTree = "<group>"; };
 		717C159AE92647C929DCBF4064872B01 /* Pods-Tello-TelloUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tello-TelloUITests-Info.plist"; sourceTree = "<group>"; };
 		71BE1F9C9BF3502B89C455CAC4AB7E2D /* Pods-TelloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelloTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7803E39157C25BF503DE2F17FA0B25AC /* Pods-Tello.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tello.debug.xcconfig"; sourceTree = "<group>"; };
-		85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
 		879915A0B5AF3608471EF8047260FC53 /* Pods_TelloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TelloTests.framework; path = "Pods-TelloTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		8E143F9F9E11CD6BF689A5CC25376C2E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
 		8E9FF2084DC605621462139AE0FAD382 /* Pods-Tello.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tello.modulemap"; sourceTree = "<group>"; };
 		8FF5312488E97193184DE41E98A86516 /* Pods-Tello-TelloUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tello-TelloUITests-frameworks.sh"; sourceTree = "<group>"; };
-		99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		9204AB33BB04A8067F0B9D2467CE7624 /* SwiftSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FF47430070A13E21DF0F4641B355A4F /* Pods-Tello-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tello-dummy.m"; sourceTree = "<group>"; };
+		A05A4A2850AD0FDEA18003AC6005E62D /* SwiftSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSocket.modulemap; sourceTree = "<group>"; };
 		A071113944D472B75424EA749A798AB6 /* Pods-Tello-TelloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tello-TelloUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		A905023E6DEC0CB3ACF18BC768C59C2E /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		B1682AF07E6458B9BD9BA452A3805373 /* Pods-TelloTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelloTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B655093DDCC0176DEAC903ABA8E76527 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C4066BFBCA788980896300A52F196ED7 /* Pods-TelloTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TelloTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C817E6E818719B70A5B61ADC8042BC44 /* Pods-TelloTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelloTests-Info.plist"; sourceTree = "<group>"; };
 		C8409C9D1E966E69484601FC5EA4C603 /* Pods-Tello-TelloUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tello-TelloUITests-dummy.m"; sourceTree = "<group>"; };
-		CC814063E47992E7A90FA41688C2A454 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		DEA17E24F689BAD69B80C9E2639F6EE9 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		C98A82A34056375FA04A23EE99A0DE3A /* SwiftSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-umbrella.h"; sourceTree = "<group>"; };
+		CBA4FC1A31E9F710B841E94FFE04959F /* SwiftSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSocket-Info.plist"; sourceTree = "<group>"; };
+		D34E558791B9D0DA7BADEDE6FCC773AD /* ytcpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ytcpsocket.c; path = Sources/ytcpsocket.c; sourceTree = "<group>"; };
 		E01C7ED940F583341FFB75D3FC73B244 /* Pods-Tello-TelloUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tello-TelloUITests-umbrella.h"; sourceTree = "<group>"; };
-		E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
 		FE2065E5988304AE15539B72F1EC4AC3 /* Pods-TelloTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TelloTests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		160EF26C734A27A9436CAB7143AF8F15 /* Frameworks */ = {
+		6207A291FB7F97FEED7FB837CB541ABA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20386C4BEBA1CEA6E5EDB1669B7ADD76 /* CFNetwork.framework in Frameworks */,
-				14703875367641811BD5FE75ACD67C96 /* Foundation.framework in Frameworks */,
-				0EC1806437F66CC12F06DD7ACD1FBA4A /* Security.framework in Frameworks */,
+				10FF98D32189D045D89683CE1D2CE9FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CA96C47A3AE97B7ABB2758A10892435 /* Frameworks */ = {
+		7D3BA3C1DAB92B7B460A4CA962CFF64E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCEA0454E414353B859CE9AD50670E2 /* Foundation.framework in Frameworks */,
+				9CE281E41E813E446EA9DE553E33D948 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,23 +123,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F2509201420AF1369EF4C7286931EE0 /* Frameworks */ = {
+		DA221CA6215FFCCEED4BF9431AA3D3A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15C5916146B5BE530D0BD4839A8CB7B2 /* Foundation.framework in Frameworks */,
+				B5BAC926E2E91F3AB55A4D23DB026475 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+		40763FE88C1AF86BFE66F6C09013C374 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDB0DD9DF2184EAAFFD00F527DE67764 /* iOS */,
+				0D715607B83CBA814E876244BE6E70DF /* Pods_Tello.framework */,
+				48AE250D0351E68FDD9B7CECF23B67A4 /* Pods_Tello_TelloUITests.framework */,
+				879915A0B5AF3608471EF8047260FC53 /* Pods_TelloTests.framework */,
+				3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */,
 			);
-			name = Frameworks;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D635881E93A5F52E36A225DD33F9C41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A05A4A2850AD0FDEA18003AC6005E62D /* SwiftSocket.modulemap */,
+				383B70CD1875BEC3A64BF7C7C377377A /* SwiftSocket.xcconfig */,
+				6EE744DA4CD44470453A32BAD6BCFEE2 /* SwiftSocket-dummy.m */,
+				CBA4FC1A31E9F710B841E94FFE04959F /* SwiftSocket-Info.plist */,
+				9204AB33BB04A8067F0B9D2467CE7624 /* SwiftSocket-prefix.pch */,
+				C98A82A34056375FA04A23EE99A0DE3A /* SwiftSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSocket";
 			sourceTree = "<group>";
 		};
 		90577C2F8BF8A82DB1D8A4AC12E0C339 /* Targets Support Files */ = {
@@ -154,17 +169,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A49791B92A7781B859EAEEF581EE6D8B /* CocoaAsyncSocket */ = {
+		B1DB9ECD821D1BEBEE42F1189E8B914D /* SwiftSocket */ = {
 			isa = PBXGroup;
 			children = (
-				8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */,
-				6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */,
-				AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */,
-				A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */,
-				B862B4264C2F1D9F87C12772C46C54AE /* Support Files */,
+				8E143F9F9E11CD6BF689A5CC25376C2E /* Result.swift */,
+				609ADF7E8B98D570BE046E4C5DBDFD65 /* Socket.swift */,
+				09B68F60448A68271A55A5BE51FB9546 /* TCPClient.swift */,
+				447E59343DC1B431D5A15BA9F074BDDC /* UDPClient.swift */,
+				D34E558791B9D0DA7BADEDE6FCC773AD /* ytcpsocket.c */,
+				5B0E02ECCD65A8BB2208F3B2BA41A40F /* yudpsocket.c */,
+				5D635881E93A5F52E36A225DD33F9C41 /* Support Files */,
 			);
-			name = CocoaAsyncSocket;
-			path = CocoaAsyncSocket;
+			name = SwiftSocket;
+			path = SwiftSocket;
 			sourceTree = "<group>";
 		};
 		B4E76B7F16E056CD7E00BA0C001AD5D3 /* Pods-Tello */ = {
@@ -184,34 +201,10 @@
 			path = "Target Support Files/Pods-Tello";
 			sourceTree = "<group>";
 		};
-		B862B4264C2F1D9F87C12772C46C54AE /* Support Files */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				12D2BC450C4A6B05397075508D93D9CE /* CocoaAsyncSocket.modulemap */,
-				85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */,
-				99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */,
-				DEA17E24F689BAD69B80C9E2639F6EE9 /* CocoaAsyncSocket-Info.plist */,
-				A905023E6DEC0CB3ACF18BC768C59C2E /* CocoaAsyncSocket-prefix.pch */,
-				E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CocoaAsyncSocket";
-			sourceTree = "<group>";
-		};
-		BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A49791B92A7781B859EAEEF581EE6D8B /* CocoaAsyncSocket */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BDB0DD9DF2184EAAFFD00F527DE67764 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CC814063E47992E7A90FA41688C2A454 /* CFNetwork.framework */,
-				B655093DDCC0176DEAC903ABA8E76527 /* Foundation.framework */,
-				5359E8FB322457653E676483AB72D7B1 /* Security.framework */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -237,22 +230,27 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */,
-				DFAAF7C585FFF76BD768702BD064F707 /* Products */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D5EC352109CA1F9CC0CB3BCA4B89FE57 /* Pods */,
+				40763FE88C1AF86BFE66F6C09013C374 /* Products */,
 				90577C2F8BF8A82DB1D8A4AC12E0C339 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DFAAF7C585FFF76BD768702BD064F707 /* Products */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */,
-				0D715607B83CBA814E876244BE6E70DF /* Pods_Tello.framework */,
-				48AE250D0351E68FDD9B7CECF23B67A4 /* Pods_Tello_TelloUITests.framework */,
-				879915A0B5AF3608471EF8047260FC53 /* Pods_TelloTests.framework */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5EC352109CA1F9CC0CB3BCA4B89FE57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB9ECD821D1BEBEE42F1189E8B914D /* SwiftSocket */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E6DA73FBBFB1ED54546898DAF5BA00D2 /* Pods-TelloTests */ = {
@@ -274,11 +272,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0A3B44251BD2DF672874EE6CEDB69E65 /* Headers */ = {
+		1AFF39B1A76A96E6B37EA7CB7A85B9E9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB8D6CBE8A172752B861CDEF6C51545 /* Pods-Tello-umbrella.h in Headers */,
+				EA51FDA665CD4D3651919CBD85F9DAF9 /* Pods-Tello-TelloUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,21 +288,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BBFD5353B40866BC48A219D17CE5177 /* Headers */ = {
+		CB6EAB659E24A27C05022ABEF298880D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDB68F6F017B8E00A457CDA06B411AC8 /* Pods-Tello-TelloUITests-umbrella.h in Headers */,
+				44F9E02439C22878659E58F253CFC748 /* Pods-Tello-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F82807D639FCFDF56A607D3970098A87 /* Headers */ = {
+		DC3106B504678C60365EA746F2704214 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */,
-				DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */,
-				411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */,
+				5BB907C502A7DEFA00C3F7ECA55CAE2B /* SwiftSocket-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,37 +326,37 @@
 			productReference = 879915A0B5AF3608471EF8047260FC53 /* Pods_TelloTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+		2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildConfigurationList = 227044261F7ABB997524D6854C4DA01A /* Build configuration list for PBXNativeTarget "SwiftSocket" */;
 			buildPhases = (
-				F82807D639FCFDF56A607D3970098A87 /* Headers */,
-				4920E2F47EC0874D094992B0DD2CA9E7 /* Sources */,
-				160EF26C734A27A9436CAB7143AF8F15 /* Frameworks */,
-				B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */,
+				DC3106B504678C60365EA746F2704214 /* Headers */,
+				13487976253A0F787DA56797114477E5 /* Sources */,
+				6207A291FB7F97FEED7FB837CB541ABA /* Frameworks */,
+				99652FCBC8D3FDD8F6EA0DC26B0734B5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CocoaAsyncSocket;
-			productName = CocoaAsyncSocket;
-			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */;
+			name = SwiftSocket;
+			productName = SwiftSocket;
+			productReference = 3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6A51209551A7175D60B42CC1F8A3FAE3 /* Pods-Tello */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4883DE7945A2356B2F4E70D2080E22A6 /* Build configuration list for PBXNativeTarget "Pods-Tello" */;
+			buildConfigurationList = B9AA1A8B408778D38666CDEA2FB8D8E4 /* Build configuration list for PBXNativeTarget "Pods-Tello" */;
 			buildPhases = (
-				0A3B44251BD2DF672874EE6CEDB69E65 /* Headers */,
-				984C4F15D8051FF0744714A816CD55D0 /* Sources */,
-				7CA96C47A3AE97B7ABB2758A10892435 /* Frameworks */,
-				4449B418096D000A1DBFFB69C5B4D69D /* Resources */,
+				CB6EAB659E24A27C05022ABEF298880D /* Headers */,
+				3AB2B8E68034EAAF1CC9E8E3423FCDF8 /* Sources */,
+				7D3BA3C1DAB92B7B460A4CA962CFF64E /* Frameworks */,
+				CE17F0A86AE461250E3DE59D380B44C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				571FF29E9EC68B652ED86EAD1C729525 /* PBXTargetDependency */,
+				E921B7A6B3AB983D642B5C2A668C1028 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tello";
 			productName = "Pods-Tello";
@@ -369,17 +365,17 @@
 		};
 		D0AE3BE81823F21ED74C38C1FD24AEEF /* Pods-Tello-TelloUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87AE89C6F273613888B5B129F7B4FC38 /* Build configuration list for PBXNativeTarget "Pods-Tello-TelloUITests" */;
+			buildConfigurationList = D88F3C77706F551CCC187B2BF0F0A5BA /* Build configuration list for PBXNativeTarget "Pods-Tello-TelloUITests" */;
 			buildPhases = (
-				3BBFD5353B40866BC48A219D17CE5177 /* Headers */,
-				C8A83BC361C23F6B2ABEFB8B1D7D30F2 /* Sources */,
-				9F2509201420AF1369EF4C7286931EE0 /* Frameworks */,
-				246D05058FBD47695B560C1FC231C33D /* Resources */,
+				1AFF39B1A76A96E6B37EA7CB7A85B9E9 /* Headers */,
+				D8AB0FE25CF572FC5332A480B0C222B1 /* Sources */,
+				DA221CA6215FFCCEED4BF9431AA3D3A7 /* Frameworks */,
+				67179E2266D081FF3524C6461532D246 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3589E36AB832B6C47E43FC4DD6B0C5FA /* PBXTargetDependency */,
+				6F9C3393369865B7A14741B2F577424A /* PBXTargetDependency */,
 			);
 			name = "Pods-Tello-TelloUITests";
 			productName = "Pods-Tello-TelloUITests";
@@ -404,27 +400,20 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DFAAF7C585FFF76BD768702BD064F707 /* Products */;
+			productRefGroup = 40763FE88C1AF86BFE66F6C09013C374 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
 				6A51209551A7175D60B42CC1F8A3FAE3 /* Pods-Tello */,
 				D0AE3BE81823F21ED74C38C1FD24AEEF /* Pods-Tello-TelloUITests */,
 				126166BDA49E59E7166882E5E300666D /* Pods-TelloTests */,
+				2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		246D05058FBD47695B560C1FC231C33D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4449B418096D000A1DBFFB69C5B4D69D /* Resources */ = {
+		67179E2266D081FF3524C6461532D246 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,7 +427,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */ = {
+		99652FCBC8D3FDD8F6EA0DC26B0734B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE17F0A86AE461250E3DE59D380B44C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,6 +444,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		13487976253A0F787DA56797114477E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310F4A419C7777D411976A91A8977522 /* Result.swift in Sources */,
+				D303472E6599B444367CC153A4F2DFDC /* Socket.swift in Sources */,
+				590F90702C1E8FFBDE2750F2EB559F6B /* SwiftSocket-dummy.m in Sources */,
+				9F9C4D89B9E4648A85BA2AD7E2C4911F /* TCPClient.swift in Sources */,
+				86CABF16414D74E81AF00E487F59B6E7 /* UDPClient.swift in Sources */,
+				71719E654327DF3FE268F5B592C6221C /* ytcpsocket.c in Sources */,
+				26933DE790AD32659A054D491A443F2F /* yudpsocket.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E0D993B0A6F3018118E7D18F288AA31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,59 +466,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4920E2F47EC0874D094992B0DD2CA9E7 /* Sources */ = {
+		3AB2B8E68034EAAF1CC9E8E3423FCDF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBB70AF3F803450935EE98C837D98688 /* CocoaAsyncSocket-dummy.m in Sources */,
-				1C7C608091334B29AA1F96D400B24326 /* GCDAsyncSocket.m in Sources */,
-				6FFB23DD5E8DD756D3A4AB53EEE4BA8E /* GCDAsyncUdpSocket.m in Sources */,
+				B0DD371044BAF94CD193ACCA02EBF01C /* Pods-Tello-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		984C4F15D8051FF0744714A816CD55D0 /* Sources */ = {
+		D8AB0FE25CF572FC5332A480B0C222B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142A40107E14A7EDEBDA37058E4FDD1A /* Pods-Tello-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8A83BC361C23F6B2ABEFB8B1D7D30F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB063EBB21B318C5D55F048214A2DF0C /* Pods-Tello-TelloUITests-dummy.m in Sources */,
+				BD169584C0CEFCEF71CB3F76C75DDB6F /* Pods-Tello-TelloUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3589E36AB832B6C47E43FC4DD6B0C5FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
-			targetProxy = 3CF0165B5C2DD35FE4B83E54C4AE4A2C /* PBXContainerItemProxy */;
-		};
 		4F1F0E3FB6D41ECD3A7DBB5929F90AD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Tello";
 			target = 6A51209551A7175D60B42CC1F8A3FAE3 /* Pods-Tello */;
 			targetProxy = 2C6B1F8F821425984E94508C3A9061B3 /* PBXContainerItemProxy */;
 		};
-		571FF29E9EC68B652ED86EAD1C729525 /* PBXTargetDependency */ = {
+		6F9C3393369865B7A14741B2F577424A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
-			targetProxy = 58B74670674880AB322CEAAF71737CBD /* PBXContainerItemProxy */;
+			name = SwiftSocket;
+			target = 2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */;
+			targetProxy = E5EF10F0E22364DD829C3CD7E6C90121 /* PBXContainerItemProxy */;
+		};
+		E921B7A6B3AB983D642B5C2A668C1028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSocket;
+			target = 2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */;
+			targetProxy = 0EBBFC989F205110C4A819467464249A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1016BFF8A1CB7F1683DE734CDC965FC9 /* Release */ = {
+		155A015B7A640F06B7127E7A24854CA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */;
+			baseConfigurationReference = 383B70CD1875BEC3A64BF7C7C377377A /* SwiftSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -519,22 +519,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/SwiftSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
-				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
-				PRODUCT_NAME = CocoaAsyncSocket;
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSocket;
+				PRODUCT_NAME = SwiftSocket;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -542,9 +541,9 @@
 			};
 			name = Release;
 		};
-		83493B8CE660196978A079077D33ED3E /* Debug */ = {
+		18FD66F432C57A3C3890FBD0A8213D7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7803E39157C25BF503DE2F17FA0B25AC /* Pods-Tello.debug.xcconfig */;
+			baseConfigurationReference = A071113944D472B75424EA749A798AB6 /* Pods-Tello-TelloUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -557,7 +556,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tello/Pods-Tello-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -566,7 +565,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tello/Pods-Tello.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -579,6 +578,79 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		68214CE65F0BCE189FCA258837427B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 383B70CD1875BEC3A64BF7C7C377377A /* SwiftSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/SwiftSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSocket;
+				PRODUCT_NAME = SwiftSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F533E29E7B6F0BFA077860A36A2E503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A2B0556F70FB8435ECE7CA71C28534 /* Pods-Tello-TelloUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -644,9 +716,9 @@
 			};
 			name = Debug;
 		};
-		8D6DCA4F83915D15050C6BC31588315C /* Release */ = {
+		A3527689B85506C647363EAF0918A435 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56A2B0556F70FB8435ECE7CA71C28534 /* Pods-Tello-TelloUITests.release.xcconfig */;
+			baseConfigurationReference = 7803E39157C25BF503DE2F17FA0B25AC /* Pods-Tello.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -659,7 +731,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tello/Pods-Tello-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -668,7 +740,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tello/Pods-Tello.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -676,42 +748,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A288F384BB9B2D05B052A64FDD84CA70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
-				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
-				PRODUCT_NAME = CocoaAsyncSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -778,44 +814,6 @@
 			};
 			name = Release;
 		};
-		D1BBDBC367A833DB6FA846A4C40FF4C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A071113944D472B75424EA749A798AB6 /* Pods-Tello-TelloUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tello-TelloUITests/Pods-Tello-TelloUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D2B9E293DE73373365A9F7EA3186FD49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E67F61E09E9F396956256423E3357DF /* Pods-TelloTests.release.xcconfig */;
@@ -841,45 +839,6 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TelloTests/Pods-TelloTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E430B8AEB69D5D81BBC39E290FFE33C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70BAAEB08FA11BCDF24D4E31B4915DBE /* Pods-Tello.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tello/Pods-Tello-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tello/Pods-Tello.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -932,9 +891,57 @@
 			};
 			name = Debug;
 		};
+		F44AE7846F922D966CA5C1082B2EBFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BAAEB08FA11BCDF24D4E31B4915DBE /* Pods-Tello.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tello/Pods-Tello-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tello/Pods-Tello.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		227044261F7ABB997524D6854C4DA01A /* Build configuration list for PBXNativeTarget "SwiftSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68214CE65F0BCE189FCA258837427B04 /* Debug */,
+				155A015B7A640F06B7127E7A24854CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -944,29 +951,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4883DE7945A2356B2F4E70D2080E22A6 /* Build configuration list for PBXNativeTarget "Pods-Tello" */ = {
+		B9AA1A8B408778D38666CDEA2FB8D8E4 /* Build configuration list for PBXNativeTarget "Pods-Tello" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83493B8CE660196978A079077D33ED3E /* Debug */,
-				E430B8AEB69D5D81BBC39E290FFE33C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A288F384BB9B2D05B052A64FDD84CA70 /* Debug */,
-				1016BFF8A1CB7F1683DE734CDC965FC9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		87AE89C6F273613888B5B129F7B4FC38 /* Build configuration list for PBXNativeTarget "Pods-Tello-TelloUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D1BBDBC367A833DB6FA846A4C40FF4C8 /* Debug */,
-				8D6DCA4F83915D15050C6BC31588315C /* Release */,
+				A3527689B85506C647363EAF0918A435 /* Debug */,
+				F44AE7846F922D966CA5C1082B2EBFFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -976,6 +965,15 @@
 			buildConfigurations = (
 				EFC26A1A32AA96A6B118C2E0F889027D /* Debug */,
 				D2B9E293DE73373365A9F7EA3186FD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88F3C77706F551CCC187B2BF0F0A5BA /* Build configuration list for PBXNativeTarget "Pods-Tello-TelloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FD66F432C57A3C3890FBD0A8213D7F /* Debug */,
+				7F533E29E7B6F0BFA077860A36A2E503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

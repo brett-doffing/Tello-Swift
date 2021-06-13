@@ -6,7 +6,7 @@ target 'Tello' do
   use_frameworks!
 
   # Pods for Tello
-  pod 'CocoaAsyncSocket'
+  pod 'SwiftSocket'
 
   target 'TelloTests' do
     inherit! :search_paths
